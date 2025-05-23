@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     /* Base Options: */
+    "moduleResolution": "node",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "target": "es2022",
@@ -17,6 +18,6 @@
     "noImplicitOverride": true,
 
     /* If transpiling with TypeScript: */
-    "module": "Preserve",
+    "module": "ESNext",  // This might be causing the issue
   }
 }
