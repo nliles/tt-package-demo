@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "description": "A demo package for Total TypeScript",
+  "local-release": "changeset version && changeset publish",
+  "prepublishOnly": "npm run ci",
   "keywords": [
     "demo",
     "typescript"
@@ -23,6 +25,7 @@
   "license": "MIT",
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.1",
+    "@changesets/cli": "^2.29.4",
     "prettier": "^3.5.3",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3",
