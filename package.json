@@ -1,26 +1,32 @@
 {
-    "name": "tt-package-demo",
-    "version": "1.0.0",
-    "description": "A demo package for Total TypeScript",
-    "keywords": [
-        "demo",
-        "typescript"
-    ],
-    "homepage": "https://github.com/nliles/tt-package-demo",
-    "bugs": {
-        "url": "https://github.com/nliles/tt-package-demo/issues"
-    },
-    "author": "Natalie",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/nliles/tt-package-demo.git"
-    },
-    "files": [
-        "dist"
-    ],
-    "type": "module",
-    "license": "MIT",
-    "devDependencies": {
-        "typescript": "^5.8.3"
-    }
+  "name": "tt-package-demo",
+  "version": "1.0.0",
+  "description": "A demo package for Total TypeScript",
+  "keywords": [
+    "demo",
+    "typescript"
+  ],
+  "homepage": "https://github.com/nliles/tt-package-demo",
+  "bugs": {
+    "url": "https://github.com/nliles/tt-package-demo/issues"
+  },
+  "author": "Natalie",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nliles/tt-package-demo.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  }
 }
