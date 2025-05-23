@@ -1,5 +1,5 @@
 {
-  "name": "tt-package-demo",
+  "name": "@nliles/tt-package-demo",
   "version": "1.0.1",
   "main": "dist/index.js",
   "description": "A demo package for Total TypeScript",
